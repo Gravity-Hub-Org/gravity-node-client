@@ -1,0 +1,20 @@
+{
+  "name": "gravity-node-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-typegen": "swagger-codegen generate -i https://node.gravityhub.org/swagger.json -l typescript-angular -o models/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-client-typegen": "^1.0.0",
+    "swagger-codegen": "^0.1.1",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "swagger-ts-generator": "^1.2.11"
+  }
+}
