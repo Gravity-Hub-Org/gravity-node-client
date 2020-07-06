@@ -15,4 +15,4 @@ Default language is TypeScript.
 
 ### 3. Check 'models' directory
 
-`cd models/`
+[TypeScript models](models/model)
